@@ -1,4 +1,4 @@
-let input = document.getElementById("input")
+let input = document.getElementById("input01")
 let product = document.getElementById("product")
 
 let cost = document.getElementById("cost");
@@ -81,6 +81,7 @@ addExpensive.addEventListener("click",function(){
             cost.value = "" ;
             product.value = "" ;   
             })
+
 
 function dlt(element){
     let listItem = element.parentNode.parentNode;
